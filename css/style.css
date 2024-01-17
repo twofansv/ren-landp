@@ -9,5 +9,18 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
+.head-cont {
+    background-color: black;
+}
