@@ -54,5 +54,10 @@ a {
 }
 
 .herotext {
+    display: block;
+    
+}
+
+.tophalf {
     display: flex;
 }
