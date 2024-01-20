@@ -36,6 +36,8 @@ a {
     display: flex;
     text-align: left;
     align-items: center;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .head-cont {
@@ -51,13 +53,42 @@ a {
 .demohero {
     display: flex;
     
+    max-width: 400px;
+    
 }
 
 .herotext {
     display: block;
+    margin-right: 150px;
+    color: aliceblue;
+    flex-grow: 0;
+    max-width: 450px;
     
 }
 
 .tophalf {
     display: flex;
+    margin: 80px;
+}
+
+button {
+    padding: 7px 16px 
+}
+
+.seemore{
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.seemore:hover {
+    background-color: rgb(218, 116, 20);
+}
+
+.wep1 {
+    display: flex;
+    max-width: 100px;
+    border: rebeccapurple;
 }
