@@ -89,8 +89,45 @@ button {
     background-color: rgb(218, 116, 20);
 }
 
-.wep1 {
+.heroaux {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 500px;
+}
+
+
+.headaux{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.wep1,
+.wep2,
+.wep3,
+.wep4 {
+    display: flex;
+    
+    width: 450px;
+    height: 100px;
     max-width: 100px;
-    border: rebeccapurple;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wep-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    
+}
+
+.lore,
+.tocrate,
+.footer {
+    display: flex;
+    flex-direction: column;
 }
