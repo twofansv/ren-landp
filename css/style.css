@@ -52,14 +52,16 @@ a {
 
 .demohero {
     display: flex;
+    width: 450px;
+    height: 232px;
+    max-width: 500px;
     
-    max-width: 400px;
     
 }
 
 .herotext {
     display: block;
-    margin-right: 150px;
+    margin-right: 100px;
     color: aliceblue;
     flex-grow: 0;
     max-width: 450px;
