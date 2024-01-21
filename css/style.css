@@ -92,7 +92,7 @@ button {
 .heroaux {
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
 
 
@@ -100,29 +100,34 @@ button {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 40px;
 
 }
 
 
-.wep1,
-.wep2,
-.wep3,
-.wep4 {
-    display: flex;
-    
-    width: 450px;
-    height: 100px;
-    max-width: 100px;
-    flex-direction: column;
+.weps {
+    max-width: 200px;
     text-align: center;
+    
+    border-bottom: 5px double firebrick;
+    border-radius: 20px;
+    padding: 6px;
+    
+}
+
+img {
+    
+    width: 100px;
+    margin-bottom: 16px;
+  
 }
 
 .wep-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 1000px;
-    
+    gap: 52px;
+  
 }
 
 .lore,
