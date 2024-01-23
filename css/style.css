@@ -130,6 +130,31 @@ img {
   
 }
 
+.text {
+    font-style: italic;
+}
+
+.lore {   
+    align-items: end;
+    padding: 170px;
+    margin-bottom: 100px;
+    background-color: #E5E7EB;
+}
+
+.loretext {
+    font-style: italic;
+    font-size: 26px;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.loresig {
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+
 .lore,
 .tocrate,
 .footer {
