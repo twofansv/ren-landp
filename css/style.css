@@ -77,17 +77,15 @@ button {
     padding: 7px 16px 
 }
 
-.seemore,
-.tcbutt {
-    background-color: rgb(129, 36, 36);
+.seemore {
+    background-color: rgb(196, 20, 20);
     color: aliceblue;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
+    font-weight: bold;
 }
+
 
 .seemore:hover,
 .tcbutt:hover {
@@ -172,7 +170,7 @@ img {
 .cont {
     display: flex;
     flex-direction: row;
-    background-color: rgb(129, 36, 36);
+    background-color: rgb(196, 20, 20);
     align-items: flex-start;
     justify-content: center;
     margin-bottom: 80px;
@@ -189,6 +187,16 @@ img {
 
 .tcbutt {
     flex-direction: row;
+    
+    background-color: rgb(196, 20, 20);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+
 }
 
 .tc1,
@@ -200,6 +208,16 @@ img {
 .tc1 {
     font-size: 24px;
     font-weight: bolder;
+}
+
+.footer {
+    background-color: rgb(129, 36, 36);
+    padding: 35px;
+}
+
+.foot-text {
+    color: white;
+    text-align: center;
 }
 
 .lore,
