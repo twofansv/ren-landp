@@ -135,6 +135,12 @@ img {
   
 }
 
+.weptitle {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
 .text {
     font-style: italic;
 }
