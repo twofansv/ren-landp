@@ -78,11 +78,14 @@ button {
 }
 
 .seemore{
-    background-color: brown;
+    background-color: rgb(129, 36, 36);
     color: aliceblue;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .seemore:hover {
@@ -154,9 +157,44 @@ img {
     
 }
 
+.tocrate-cont{
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    background-color: firebrick;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    height: 100px;
+    width: 1000px;
+    
+}
+
+.tocrate,
+.tcbutt {
+    margin: auto;
+}
+
+.tcbutt {
+    flex-direction: row;
+}
+
+.tc1,
+.tc2 {
+    color: #E5E7EB;
+    
+}
+
+.tc1 {
+    font-size: 24px;
+}
 
 .lore,
-.tocrate,
+.tocrate-cont,
 .footer {
     display: flex;
     flex-direction: column;
